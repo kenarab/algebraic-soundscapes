@@ -1,0 +1,614 @@
+zoom 24
+speed 0.1
+center 0.0783681 0.109648
+rotate 14.5127 -41.0167 105.844
+autosize 1
+add curve 999
+setpos current -0.00420821 -0.00420818 0
+setpointat current  0  0 -0.3 0  0 0 0  0 0 0
+setpointat current  1  0.005 0 0  0 0 0  0 0 0
+setpointat current  2  0.095 0 0  0 0 0  0 0 0
+setpointat current  3  0.1 -0.3 0  0 0 0  0 0 0
+setpointat current  4  0.105 0 0  0 0 0  0 0 0
+setpointat current  5  0.195 0 0  0 0 0  0 0 0
+setpointat current  6  0.2 -0.3 0  0 0 0  0 0 0
+setpointat current  7  0.205 0 0  0 0 0  0 0 0
+setpointat current  8  0.295 0 0  0 0 0  0 0 0
+setpointat current  9  0.3 -0.3 0  0 0 0  0 0 0
+setpointat current  10  0.305 0 0  0 0 0  0 0 0
+setpointat current  11  0.395 0 0  0 0 0  0 0 0
+setpointat current  12  0.4 -0.3 0  0 0 0  0 0 0
+setpointat current  13  0.405 0 0  0 0 0  0 0 0
+setpointat current  14  0.495 0 0  0 0 0  0 0 0
+setpointat current  15  0.5 -0.3 0  0 0 0  0 0 0
+setpointat current  16  0.505 0 0  0 0 0  0 0 0
+setpointat current  17  0.595 0 0  0 0 0  0 0 0
+setpointat current  18  0.6 -0.3 0  0 0 0  0 0 0
+setpointat current  19  0.605 0 0  0 0 0  0 0 0
+setpointat current  20  0.693 0 0  0 0 0  0 0 0
+setpointat current  21  0.7 -0.3 0  0 0 0  0 0 0
+setpointat current  22  0.705 0 0  0 0 0  0 0 0
+setpointat current  23  0.795 0 0  0 0 0  0 0 0
+setpointat current  24  0.8 -0.3 0  0 0 0  0 0 0
+setpointat current  25  0.805 0 0  0 0 0  0 0 0
+setpointat current  26  0.895 0 0  0 0 0  0 0 0
+setpointat current  27  0.9 -0.3 0  0 0 0  0 0 0
+setpointat current  28  0.905 0 0  0 0 0  0 0 0
+setpointat current  29  0.995 0 0  0 0 0  0 0 0
+setpointat current  30  1 -0.3 0  0 0 0  0 0 0
+setcoloractive current 255 255 255 0
+add cursor 9
+setcurve current lastCurve
+setspeed current 0.293394
+setwidth current 0.03
+setdepth current 0.03
+setpattern current 0 0 1
+setcoloractive current 255 255 255 0
+setsize current 1.2
+setmessage current 20, osc://ip_out:3333/fade {cursor_yPos+0.5} ,
+
+add trigger 1001
+setpos current 0 -0.302 0
+setcoloractive current 255 255 255 0
+setcolorinactive current 255 255 255 0
+setcoloractivemessage current 255 255 255 0
+setcolorinactivemessage current 255 255 255 0
+setmessage current 1, midi://midi_out/cc 0 41 127 ,
+
+add curve 1000
+setgroup current lines
+setpointat current  0  -0.0128647 -0.857321 0.012673  0 0 0  0 0 0
+setpointat current  1  -0.00713312 -0.743436 0.0317486  0 0 0  0 0 0
+setpointat current  2  0.0660975 -0.560475 0.0131979  0 0 0  0 0 0
+setpointat current  3  0.147139 -0.38344 -0.0225946  0 0 0  0 0 0
+setpointat current  4  0.248547 -0.234785 -0.109284  0 0 0  0 0 0
+setpointat current  5  0.34178 -0.0689638 -0.166166  0 0 0  0 0 0
+setpointat current  6  0.359269 0.117019 -0.119498  0 0 0  0 0 0
+setpointat current  7  0.300601 0.213724 0.0406486  0 0 0  0 0 0
+setpointat current  8  0.181187 0.232779 0.197617  0 0 0  0 0 0
+setpointat current  9  0.0263013 0.199557 0.317277  0 0 0  0 0 0
+setpointat current  10  -0.145917 0.111741 0.338037  0 0 0  0 0 0
+setpointat current  11  -0.250079 -0.0387553 0.262909  0 0 0  0 0 0
+setpointat current  12  -0.312503 -0.162393 0.121861  0 0 0  0 0 0
+setpointat current  13  -0.309587 -0.195637 -0.0698687  0 0 0  0 0 0
+setpointat current  14  -0.251295 -0.107177 -0.235702  0 0 0  0 0 0
+setpointat current  15  -0.169625 0.0303645 -0.354425  0 0 0  0 0 0
+setpointat current  16  -0.0169652 0.117711 -0.433277  0 0 0  0 0 0
+setpointat current  17  0.137646 0.0206643 -0.401608  0 0 0  0 0 0
+setpointat current  18  0.186389 -0.131223 -0.282857  0 0 0  0 0 0
+setpointat current  19  0.212841 -0.257533 -0.131585  0 0 0  0 0 0
+setpointat current  20  0.186038 -0.327795 0.0502746  0 0 0  0 0 0
+setpointat current  21  0.100654 -0.272821 0.21795  0 0 0  0 0 0
+setpointat current  22  -0.00626348 -0.172989 0.353492  0 0 0  0 0 0
+setpointat current  23  -0.072721 -0.0537228 0.497062  0 0 0  0 0 0
+setpointat current  24  0.0146309 0.0599285 0.585808  0 0 0  0 0 0
+setpointat current  25  0.0214808 -0.0812797 0.513676  0 0 0  0 0 0
+setpointat current  26  -0.0970239 -0.131475 0.362736  0 0 0  0 0 0
+setpointat current  27  -0.217824 -0.180625 0.213484  0 0 0  0 0 0
+setpointat current  28  -0.35204 -0.157525 0.0688518  0 0 0  0 0 0
+setpointat current  29  -0.462867 -0.0763446 -0.0710874  0 0 0  0 0 0
+setpointat current  30  -0.447944 0.0975884 -0.0532855  0 0 0  0 0 0
+setpointat current  31  -0.341622 0.148143 0.103717  0 0 0  0 0 0
+setpointat current  32  -0.199873 0.169441 0.242585  0 0 0  0 0 0
+setpointat current  33  -0.0325175 0.173125 0.34936  0 0 0  0 0 0
+setpointat current  34  0.13679 0.084468 0.367311  0 0 0  0 0 0
+setpointat current  35  0.209956 -0.0805806 0.290046  0 0 0  0 0 0
+setpointat current  36  0.243642 -0.215856 0.149194  0 0 0  0 0 0
+setpointat current  37  0.219689 -0.296915 -0.0279758  0 0 0  0 0 0
+setpointat current  38  0.130386 -0.269785 -0.201303  0 0 0  0 0 0
+setpointat current  39  -0.0214039 -0.205875 -0.311591  0 0 0  0 0 0
+setpointat current  40  -0.179878 -0.0922257 -0.316639  0 0 0  0 0 0
+setpointat current  41  -0.285533 0.049605 -0.226127  0 0 0  0 0 0
+setpointat current  42  -0.339047 0.1659 -0.0762828  0 0 0  0 0 0
+setpointat current  43  -0.310403 0.171054 0.115742  0 0 0  0 0 0
+setpointat current  44  -0.220739 0.0915881 0.274788  0 0 0  0 0 0
+setpointat current  45  -0.122217 0.0112123 0.428567  0 0 0  0 0 0
+setpointat current  46  -0.0210401 -0.0591002 0.583065  0 0 0  0 0 0
+setpointat current  47  0.00103781 0.0414248 0.688371  0 0 0  0 0 0
+setpointat current  48  0.034245 0.0169649 0.700545  0 0 0  0 0 0
+setpointat current  49  -0.0206716 -0.0516358 0.606284  0 0 0  0 0 0
+setpointat current  50  0.101073 -0.0409054 0.45387  0 0 0  0 0 0
+setpointat current  51  0.220324 -0.0271821 0.294931  0 0 0  0 0 0
+setpointat current  52  0.367255 -0.0224158 0.160058  0 0 0  0 0 0
+setpointat current  53  0.544104 0.00162077 0.0725971  0 0 0  0 0 0
+setpointat current  54  0.722983 0.0345797 -0.00424354  0 0 0  0 0 0
+setpointat current  55  0.810676 0.0245088 -0.0049646  0 0 0  0 0 0
+setpointat current  56  0.703656 0.0349584 0.0134417  0 0 0  0 0 0
+setpointat current  57  0.51954 0.0550802 -0.0600744  0 0 0  0 0 0
+setpointat current  58  0.345781 0.112882 -0.136904  0 0 0  0 0 0
+setpointat current  59  0.189172 0.203903 -0.221243  0 0 0  0 0 0
+setpointat current  60  0.00319018 0.251179 -0.265533  0 0 0  0 0 0
+setpointat current  61  -0.18332 0.213761 -0.215486  0 0 0  0 0 0
+setpointat current  62  -0.33467 0.156172 -0.100067  0 0 0  0 0 0
+setpointat current  63  -0.463203 0.0966069 0.0387932  0 0 0  0 0 0
+setpointat current  64  -0.483493 -0.071569 0.0620699  0 0 0  0 0 0
+setpointat current  65  -0.361226 -0.150161 -0.0711134  0 0 0  0 0 0
+setpointat current  66  -0.220929 -0.186199 -0.207305  0 0 0  0 0 0
+setpointat current  67  -0.0500887 -0.20658 -0.305832  0 0 0  0 0 0
+setpointat current  68  0.133789 -0.14359 -0.321003  0 0 0  0 0 0
+setpointat current  69  0.271086 -0.0248935 -0.242917  0 0 0  0 0 0
+setpointat current  70  0.388341 0.0808686 -0.122447  0 0 0  0 0 0
+setpointat current  71  0.471051 0.0893746 0.0487445  0 0 0  0 0 0
+setpointat current  72  0.412582 -0.0761423 0.107503  0 0 0  0 0 0
+setpointat current  73  0.276508 -0.21926 0.0904466  0 0 0  0 0 0
+setpointat current  74  0.141338 -0.365727 0.0812613  0 0 0  0 0 0
+setpointat current  75  0.040121 -0.536314 0.0641563  0 0 0  0 0 0
+setpointat current  76  -0.0370416 -0.648995 -0.029184  0 0 0  0 0 0
+setpointat current  77  -0.00597024 -0.632962 0.0499134  0 0 0  0 0 0
+setpointat current  78  -0.0523848 -0.506843 -0.0675263  0 0 0  0 0 0
+setpointat current  79  -0.0522992 -0.34053 -0.173707  0 0 0  0 0 0
+setpointat current  80  -0.0724243 -0.194749 -0.308457  0 0 0  0 0 0
+setpointat current  81  -0.115221 -0.0412126 -0.427392  0 0 0  0 0 0
+setpointat current  82  -0.0198025 0.110887 -0.448782  0 0 0  0 0 0
+setpointat current  83  0.146838 0.10109 -0.34431  0 0 0  0 0 0
+setpointat current  84  0.291845 0.0760399 -0.209569  0 0 0  0 0 0
+setpointat current  85  0.451376 0.0597809 -0.0917274  0 0 0  0 0 0
+setpointat current  86  0.612811 0.0506535 0.0209536  0 0 0  0 0 0
+setpointat current  87  0.725067 -0.0157978 -0.0316388  0 0 0  0 0 0
+setpointat current  88  0.771093 -0.0114142 -0.0264457  0 0 0  0 0 0
+setpointat current  89  0.654188 -0.0395498 0.0239157  0 0 0  0 0 0
+setpointat current  90  0.481158 -0.0682749 -0.0689538  0 0 0  0 0 0
+setpointat current  91  0.318559 -0.0822996 -0.183166  0 0 0  0 0 0
+setpointat current  92  0.172184 -0.104124 -0.317447  0 0 0  0 0 0
+setpointat current  93  0.0239071 -0.108756 -0.450606  0 0 0  0 0 0
+setpointat current  94  -0.0800449 0.0181651 -0.518233  0 0 0  0 0 0
+setpointat current  95  0.0769259 0.0429515 -0.502425  0 0 0  0 0 0
+setpointat current  96  0.134334 -0.0862582 -0.367999  0 0 0  0 0 0
+setpointat current  97  0.197961 -0.199057 -0.215837  0 0 0  0 0 0
+setpointat current  98  0.239739 -0.272015 -0.0369263  0 0 0  0 0 0
+setpointat current  99  0.208196 -0.246209 0.15497  0 0 0  0 0 0
+setpointat current  100  0.168711 -0.123865 0.306886  0 0 0  0 0 0
+setpointat current  101  0.118086 0.0201826 0.434087  0 0 0  0 0 0
+setpointat current  102  -0.0397638 0.105406 0.446428  0 0 0  0 0 0
+setpointat current  103  -0.151861 -0.0305053 0.375319  0 0 0  0 0 0
+setpointat current  104  -0.194883 -0.172751 0.242979  0 0 0  0 0 0
+setpointat current  105  -0.184206 -0.307771 0.0968373  0 0 0  0 0 0
+setpointat current  106  -0.113021 -0.432288 -0.0400632  0 0 0  0 0 0
+setpointat current  107  0.0514833 -0.49581 -0.0730536  0 0 0  0 0 0
+setpointat current  108  0.0900042 -0.42015 0.0905066  0 0 0  0 0 0
+setpointat current  109  0.028016 -0.288545 0.227333  0 0 0  0 0 0
+setpointat current  110  -0.0649554 -0.162391 0.351134  0 0 0  0 0 0
+setpointat current  111  -0.101396 -0.00908158 0.467216  0 0 0  0 0 0
+setpointat current  112  0.0342637 0.06351 0.550785  0 0 0  0 0 0
+setpointat current  113  -0.0109259 -0.0737263 0.53826  0 0 0  0 0 0
+setpointat current  114  -0.136495 -0.0049951 0.40509  0 0 0  0 0 0
+setpointat current  115  -0.252693 0.0570521 0.255182  0 0 0  0 0 0
+setpointat current  116  -0.38509 0.0992868 0.111501  0 0 0  0 0 0
+setpointat current  117  -0.467217 0.0832045 -0.0583256  0 0 0  0 0 0
+setpointat current  118  -0.397967 -0.0809023 -0.115479  0 0 0  0 0 0
+setpointat current  119  -0.271439 -0.229694 -0.0785364  0 0 0  0 0 0
+setpointat current  120  -0.16751 -0.356455 0.0338091  0 0 0  0 0 0
+setpointat current  121  -0.0117632 -0.43393 0.118152  0 0 0  0 0 0
+setpointat current  122  0.14858 -0.381686 0.0338792  0 0 0  0 0 0
+setpointat current  123  0.18653 -0.282129 -0.132279  0 0 0  0 0 0
+setpointat current  124  0.148265 -0.16568 -0.289529  0 0 0  0 0 0
+setpointat current  125  0.103887 -0.0464611 -0.442704  0 0 0  0 0 0
+setpointat current  126  0.0264881 0.0536116 -0.592126  0 0 0  0 0 0
+setpointat current  127  -0.00629281 -0.055975 -0.602845  0 0 0  0 0 0
+setpointat current  128  0.0825408 0.0481964 -0.485411  0 0 0  0 0 0
+setpointat current  129  0.06579 0.175498 -0.33231  0 0 0  0 0 0
+setpointat current  130  0.073784 0.313902 -0.188652  0 0 0  0 0 0
+setpointat current  131  0.078041 0.469035 -0.0632347  0 0 0  0 0 0
+setpointat current  132  0.0393501 0.641188 0.0278353  0 0 0  0 0 0
+setpointat current  133  0.0136109 0.729845 -0.0322501  0 0 0  0 0 0
+setpointat current  134  -0.0518268 0.625041 0.00929968  0 0 0  0 0 0
+setpointat current  135  -0.0764452 0.448542 -0.0797469  0 0 0  0 0 0
+setpointat current  136  -0.072938 0.29483 -0.206804  0 0 0  0 0 0
+setpointat current  137  -0.0511281 0.162494 -0.353664  0 0 0  0 0 0
+setpointat current  138  0.0154498 0.0778796 -0.521428  0 0 0  0 0 0
+setpointat current  139  0.0303967 -0.0290081 -0.677947  0 0 0  0 0 0
+setpointat current  140  0.0339673 0.0120562 -0.719441  0 0 0  0 0 0
+setpointat current  141  -0.0276891 0.0415684 -0.638186  0 0 0  0 0 0
+setpointat current  142  0.074492 0.0664691 -0.471136  0 0 0  0 0 0
+setpointat current  143  0.195676 0.0567834 -0.31318  0 0 0  0 0 0
+setpointat current  144  0.332994 0.0775101 -0.169739  0 0 0  0 0 0
+setpointat current  145  0.481951 0.0872464 -0.0376103  0 0 0  0 0 0
+setpointat current  146  0.562228 -0.0226066 0.0649368  0 0 0  0 0 0
+setpointat current  147  0.478698 -0.0502741 -0.0845679  0 0 0  0 0 0
+setpointat current  148  0.333474 0.0468724 -0.180865  0 0 0  0 0 0
+setpointat current  149  0.188065 0.152526 -0.265612  0 0 0  0 0 0
+setpointat current  150  0.0067709 0.221987 -0.29482  0 0 0  0 0 0
+setpointat current  151  -0.176524 0.214622 -0.222652  0 0 0  0 0 0
+setpointat current  152  -0.324294 0.170099 -0.0965201  0 0 0  0 0 0
+setpointat current  153  -0.431977 0.107355 0.0567271  0 0 0  0 0 0
+setpointat current  154  -0.421934 -0.0686284 0.106061  0 0 0  0 0 0
+setpointat current  155  -0.305118 -0.21132 0.0321376  0 0 0  0 0 0
+setpointat current  156  -0.175127 -0.34594 -0.0372233  0 0 0  0 0 0
+setpointat current  157  -0.0427937 -0.487058 -0.0843974  0 0 0  0 0 0
+setpointat current  158  0.0639668 -0.565092 0.0214571  0 0 0  0 0 0
+setpointat current  159  -0.0840724 -0.508201 0.0197833  0 0 0  0 0 0
+setpointat current  160  -0.121214 -0.362186 -0.110468  0 0 0  0 0 0
+setpointat current  161  -0.174941 -0.209278 -0.227263  0 0 0  0 0 0
+setpointat current  162  -0.231094 -0.0288268 -0.282726  0 0 0  0 0 0
+setpointat current  163  -0.209966 0.161696 -0.239488  0 0 0  0 0 0
+setpointat current  164  -0.123055 0.320196 -0.155632  0 0 0  0 0 0
+setpointat current  165  -0.0513904 0.488451 -0.0778653  0 0 0  0 0 0
+setpointat current  166  -0.0394452 0.677296 -0.0140604  0 0 0  0 0 0
+setpointat current  167  0.0192232 0.847635 -0.00233938  0 0 0  0 0 0
+setpointat current  168  0.00789638 0.884312 0.0132219  0 0 0  0 0 0
+setpointat current  169  -0.0274606 0.722222 0.0219559  0 0 0  0 0 0
+setpointat current  170  -0.054666 0.528149 0.0566821  0 0 0  0 0 0
+setpointat current  171  -0.141604 0.354449 0.0963744  0 0 0  0 0 0
+setpointat current  172  -0.259213 0.201416 0.146758  0 0 0  0 0 0
+setpointat current  173  -0.315716 0.0218779 0.203444  0 0 0  0 0 0
+setpointat current  174  -0.312128 -0.157474 0.129514  0 0 0  0 0 0
+setpointat current  175  -0.250595 -0.263755 -0.0251199  0 0 0  0 0 0
+setpointat current  176  -0.114022 -0.331417 -0.151407  0 0 0  0 0 0
+setpointat current  177  0.0779707 -0.327897 -0.17481  0 0 0  0 0 0
+setpointat current  178  0.244227 -0.233094 -0.122108  0 0 0  0 0 0
+setpointat current  179  0.383318 -0.149931 -0.00991131  0 0 0  0 0 0
+setpointat current  180  0.510416 -0.0300547 0.0795594  0 0 0  0 0 0
+setpointat current  181  0.511304 0.0748505 -0.0399293  0 0 0  0 0 0
+setpointat current  182  0.408833 -0.0653059 -0.116125  0 0 0  0 0 0
+setpointat current  183  0.266578 -0.204674 -0.130535  0 0 0  0 0 0
+setpointat current  184  0.10737 -0.316554 -0.1698  0 0 0  0 0 0
+setpointat current  185  -0.0805553 -0.360761 -0.146428  0 0 0  0 0 0
+setpointat current  186  -0.223622 -0.289478 -0.0316987  0 0 0  0 0 0
+setpointat current  187  -0.335913 -0.167495 0.0781689  0 0 0  0 0 0
+setpointat current  188  -0.397859 0.00468151 0.140886  0 0 0  0 0 0
+setpointat current  189  -0.352081 0.165362 0.0476263  0 0 0  0 0 0
+setpointat current  190  -0.237573 0.258225 -0.0865213  0 0 0  0 0 0
+setpointat current  191  -0.0829626 0.295322 -0.203688  0 0 0  0 0 0
+setpointat current  192  0.109068 0.262502 -0.223783  0 0 0  0 0 0
+setpointat current  193  0.271265 0.15602 -0.181761  0 0 0  0 0 0
+setpointat current  194  0.405847 0.0185412 -0.13559  0 0 0  0 0 0
+setpointat current  195  0.442961 -0.114086 -0.0122068  0 0 0  0 0 0
+setpointat current  196  0.344791 -0.0882612 0.153656  0 0 0  0 0 0
+setpointat current  197  0.244928 0.0424357 0.265397  0 0 0  0 0 0
+setpointat current  198  0.0984005 0.151806 0.341207  0 0 0  0 0 0
+setpointat current  199  -0.0883623 0.126686 0.378348  0 0 0  0 0 0
+setpointat current  200  -0.194766 -0.026769 0.32275  0 0 0  0 0 0
+setpointat current  201  -0.244838 -0.171051 0.195293  0 0 0  0 0 0
+setpointat current  202  -0.259645 -0.25579 0.0177855  0 0 0  0 0 0
+setpointat current  203  -0.195263 -0.249444 -0.167752  0 0 0  0 0 0
+setpointat current  204  -0.0884967 -0.177158 -0.319189  0 0 0  0 0 0
+setpointat current  205  0.0381143 -0.101448 -0.453474  0 0 0  0 0 0
+setpointat current  206  0.0605459 0.0642414 -0.503813  0 0 0  0 0 0
+setpointat current  207  -0.105149 0.0756356 -0.416461  0 0 0  0 0 0
+setpointat current  208  -0.239215 0.0418251 -0.272892  0 0 0  0 0 0
+setpointat current  209  -0.388182 -0.00110344 -0.147378  0 0 0  0 0 0
+setpointat current  210  -0.551546 -0.0543372 -0.0457151  0 0 0  0 0 0
+setpointat current  211  -0.633447 0.0377684 0.0342098  0 0 0  0 0 0
+setpointat current  212  -0.562814 -0.0551797 -0.038026  0 0 0  0 0 0
+setpointat current  213  -0.41935 -0.0888682 0.0916441  0 0 0  0 0 0
+setpointat current  214  -0.269813 -0.0938767 0.223866  0 0 0  0 0 0
+setpointat current  215  -0.124037 -0.112999 0.358869  0 0 0  0 0 0
+setpointat current  216  0.0281772 -0.0925356 0.481749  0 0 0  0 0 0
+setpointat current  217  0.0354057 0.059956 0.556934  0 0 0  0 0 0
+setpointat current  218  -0.0964116 -0.0166715 0.478216  0 0 0  0 0 0
+setpointat current  219  -0.081986 -0.161554 0.342523  0 0 0  0 0 0
+setpointat current  220  -0.0546522 -0.304332 0.206653  0 0 0  0 0 0
+setpointat current  221  -0.109573 -0.425513 0.0598294  0 0 0  0 0 0
+setpointat current  222  -0.0335103 -0.457914 -0.101823  0 0 0  0 0 0
+setpointat current  223  0.13199 -0.355927 -0.104847  0 0 0  0 0 0
+setpointat current  224  0.278238 -0.226272 -0.0637045  0 0 0  0 0 0
+setpointat current  225  0.437428 -0.108265 -0.0418769  0 0 0  0 0 0
+setpointat current  226  0.614915 -0.0177656 -0.0504543  0 0 0  0 0 0
+setpointat current  227  0.75456 -0.0028328 0.0297852  0 0 0  0 0 0
+setpointat current  228  0.765208 -0.0166713 0.0231811  0 0 0  0 0 0
+setpointat current  229  0.602027 0.0174058 -0.0537926  0 0 0  0 0 0
+setpointat current  230  0.430007 0.115111 -0.0357043  0 0 0  0 0 0
+setpointat current  231  0.273669 0.237972 -0.0340387  0 0 0  0 0 0
+setpointat current  232  0.1424 0.388161 -0.0306755  0 0 0  0 0 0
+setpointat current  233  0.0516467 0.565134 -0.040643  0 0 0  0 0 0
+setpointat current  234  -0.0273585 0.742847 -0.0160627  0 0 0  0 0 0
+setpointat current  235  -0.00906029 0.894633 -0.0113045  0 0 0  0 0 0
+setpointat current  236  -0.0154666 0.889576 0.00481455  0 0 0  0 0 0
+setpointat current  237  0.035084 0.705739 -0.0118703  0 0 0  0 0 0
+setpointat current  238  0.069283 0.512342 -0.0464475  0 0 0  0 0 0
+setpointat current  239  0.121457 0.340864 -0.133157  0 0 0  0 0 0
+setpointat current  240  0.182622 0.185504 -0.242957  0 0 0  0 0 0
+setpointat current  241  0.205957 0.00252264 -0.312701  0 0 0  0 0 0
+setpointat current  242  0.139739 -0.179446 -0.285324  0 0 0  0 0 0
+setpointat current  243  0.030998 -0.32133 -0.196973  0 0 0  0 0 0
+setpointat current  244  -0.0634611 -0.456557 -0.0877997  0 0 0  0 0 0
+setpointat current  245  -0.0352064 -0.568303 0.0555842  0 0 0  0 0 0
+setpointat current  246  0.0374508 -0.570061 -0.0546291  0 0 0  0 0 0
+setpointat current  247  -0.103715 -0.464177 -0.0104976  0 0 0  0 0 0
+setpointat current  248  -0.192857 -0.309356 0.0785911  0 0 0  0 0 0
+setpointat current  249  -0.306862 -0.157033 0.138184  0 0 0  0 0 0
+setpointat current  250  -0.374698 0.0249177 0.153234  0 0 0  0 0 0
+setpointat current  251  -0.314969 0.190696 0.0693083  0 0 0  0 0 0
+setpointat current  252  -0.197462 0.320072 -0.0275451  0 0 0  0 0 0
+setpointat current  253  -0.0560129 0.436812 -0.103686  0 0 0  0 0 0
+setpointat current  254  0.110041 0.439443 -0.0360468  0 0 0  0 0 0
+setpointat current  255  0.159188 0.322387 0.114683  0 0 0  0 0 0
+setpointat current  256  0.161213 0.187018 0.261254  0 0 0  0 0 0
+setpointat current  257  0.122844 0.0563015 0.406924  0 0 0  0 0 0
+setpointat current  258  0.0527844 -0.0415396 0.565393  0 0 0  0 0 0
+setpointat current  259  -0.0344905 0.0332931 0.650192  0 0 0  0 0 0
+setpointat current  260  -0.00940291 -0.0513071 0.628189  0 0 0  0 0 0
+setpointat current  261  -0.0657561 0.0634216 0.493448  0 0 0  0 0 0
+setpointat current  262  -0.0588358 0.179914 0.332046  0 0 0  0 0 0
+setpointat current  263  -0.054856 0.320966 0.190751  0 0 0  0 0 0
+setpointat current  264  -0.0795205 0.471202 0.0617323  0 0 0  0 0 0
+setpointat current  265  -0.00205175 0.532451 -0.0766106  0 0 0  0 0 0
+setpointat current  266  0.0695542 0.48594 0.0633115  0 0 0  0 0 0
+setpointat current  267  -0.0659732 0.371221 0.145214  0 0 0  0 0 0
+setpointat current  268  -0.188557 0.224111 0.202585  0 0 0  0 0 0
+setpointat current  269  -0.303329 0.0624428 0.202909  0 0 0  0 0 0
+setpointat current  270  -0.345647 -0.115406 0.134556  0 0 0  0 0 0
+setpointat current  271  -0.290411 -0.226193 -0.0179764  0 0 0  0 0 0
+setpointat current  272  -0.161243 -0.291122 -0.153696  0 0 0  0 0 0
+setpointat current  273  0.0235156 -0.297924 -0.217314  0 0 0  0 0 0
+setpointat current  274  0.204958 -0.240403 -0.165894  0 0 0  0 0 0
+setpointat current  275  0.359885 -0.138388 -0.0932272  0 0 0  0 0 0
+setpointat current  276  0.535192 -0.0527345 -0.0542238  0 0 0  0 0 0
+setpointat current  277  0.728469 -0.00686342 -0.0328464  0 0 0  0 0 0
+setpointat current  278  0.916184 0.00304787 0.0133991  0 0 0  0 0 0
+setpointat current  279  0.906822 0.0035044 0.0148656  0 0 0  0 0 0
+setpointat current  280  0.716345 -0.0291358 -0.0202423  0 0 0  0 0 0
+setpointat current  281  0.524001 -0.0283235 -0.074222  0 0 0  0 0 0
+setpointat current  282  0.349327 -0.0568176 -0.164915  0 0 0  0 0 0
+setpointat current  283  0.198535 -0.118932 -0.279722  0 0 0  0 0 0
+setpointat current  284  0.0253521 -0.161447 -0.364891  0 0 0  0 0 0
+setpointat current  285  -0.150786 -0.0870911 -0.351631  0 0 0  0 0 0
+setpointat current  286  -0.255589 0.0495705 -0.252665  0 0 0  0 0 0
+setpointat current  287  -0.30852 0.175673 -0.110033  0 0 0  0 0 0
+setpointat current  288  -0.270826 0.231514 0.0742112  0 0 0  0 0 0
+setpointat current  289  -0.207407 0.158184 0.245414  0 0 0  0 0 0
+setpointat current  290  -0.163354 0.00701833 0.366774  0 0 0  0 0 0
+setpointat current  291  -0.0311119 -0.116332 0.431696  0 0 0  0 0 0
+setpointat current  292  0.140155 -0.0590765 0.379104  0 0 0  0 0 0
+setpointat current  293  0.228236 0.0817983 0.2698  0 0 0  0 0 0
+setpointat current  294  0.271076 0.206466 0.121547  0 0 0  0 0 0
+setpointat current  295  0.251751 0.252896 -0.0681279  0 0 0  0 0 0
+setpointat current  296  0.169104 0.20333 -0.240782  0 0 0  0 0 0
+setpointat current  297  0.0834544 0.114476 -0.397576  0 0 0  0 0 0
+setpointat current  298  0.0175814 0.0611893 -0.577852  0 0 0  0 0 0
+setpointat current  299  -0.0301009 0.0029729 -0.760706  0 0 0  0 0 0
+setpointat current  300  -0.0139461 -0.00405445 -0.90971  0 0 0  0 0 0
+setpointat current  301  -8.31426e-05 0.0124384 -0.925665  0 0 0  0 0 0
+setpointat current  302  0.0306721 -0.00792846 -0.746584  0 0 0  0 0 0
+setpointat current  303  0.068857 0.0166728 -0.552958  0 0 0  0 0 0
+setpointat current  304  0.154115 0.0316846 -0.37398  0 0 0  0 0 0
+setpointat current  305  0.276666 0.0792236 -0.223691  0 0 0  0 0 0
+setpointat current  306  0.401706 0.117455 -0.0734631  0 0 0  0 0 0
+setpointat current  307  0.418087 0.0721904 0.105185  0 0 0  0 0 0
+setpointat current  308  0.334306 -0.0948685 0.161208  0 0 0  0 0 0
+setpointat current  309  0.195259 -0.235151 0.183559  0 0 0  0 0 0
+setpointat current  310  0.0275548 -0.339509 0.18238  0 0 0  0 0 0
+setpointat current  311  -0.114129 -0.408719 0.0689287  0 0 0  0 0 0
+setpointat current  312  -0.100717 -0.379433 -0.116185  0 0 0  0 0 0
+setpointat current  313  0.0372822 -0.287562 -0.224535  0 0 0  0 0 0
+setpointat current  314  0.176324 -0.155071 -0.274986  0 0 0  0 0 0
+setpointat current  315  0.281339 0.00656548 -0.235102  0 0 0  0 0 0
+setpointat current  316  0.339411 0.146243 -0.110632  0 0 0  0 0 0
+setpointat current  317  0.31292 0.189059 0.077051  0 0 0  0 0 0
+setpointat current  318  0.210708 0.154596 0.243645  0 0 0  0 0 0
+setpointat current  319  0.0751593 0.126487 0.387602  0 0 0  0 0 0
+setpointat current  320  -0.0671717 0.0584602 0.500515  0 0 0  0 0 0
+setpointat current  321  -0.0104534 -0.0983811 0.476459  0 0 0  0 0 0
+setpointat current  322  0.147506 -0.0608891 0.36892  0 0 0  0 0 0
+setpointat current  323  0.28046 0.00418051 0.23478  0 0 0  0 0 0
+setpointat current  324  0.394724 0.0982411 0.102574  0 0 0  0 0 0
+setpointat current  325  0.417791 0.100382 -0.0813881  0 0 0  0 0 0
+setpointat current  326  0.340015 -0.0515313 -0.174663  0 0 0  0 0 0
+setpointat current  327  0.19772 -0.175429 -0.2388  0 0 0  0 0 0
+setpointat current  328  0.0221286 -0.264019 -0.25092  0 0 0  0 0 0
+setpointat current  329  -0.162537 -0.263963 -0.183962  0 0 0  0 0 0
+setpointat current  330  -0.30754 -0.198539 -0.0641434  0 0 0  0 0 0
+setpointat current  331  -0.40492 -0.108055 0.0820538  0 0 0  0 0 0
+setpointat current  332  -0.398195 0.0746852 0.120086  0 0 0  0 0 0
+setpointat current  333  -0.286354 0.222889 0.0492755  0 0 0  0 0 0
+setpointat current  334  -0.161914 0.364585 -0.0167857  0 0 0  0 0 0
+setpointat current  335  -0.0316368 0.498709 -0.0828795  0 0 0  0 0 0
+setpointat current  336  0.0858862 0.493336 0.0295071  0 0 0  0 0 0
+setpointat current  337  0.0230132 0.362298 0.16411  0 0 0  0 0 0
+setpointat current  338  -0.0789912 0.228648 0.271722  0 0 0  0 0 0
+setpointat current  339  -0.120726 0.0776973 0.393891  0 0 0  0 0 0
+setpointat current  340  -0.0553764 -0.0740364 0.488264  0 0 0  0 0 0
+setpointat current  341  0.100187 -0.0116641 0.468672  0 0 0  0 0 0
+setpointat current  342  0.101517 0.143998 0.346829  0 0 0  0 0 0
+setpointat current  343  0.0505757 0.289439 0.220207  0 0 0  0 0 0
+setpointat current  344  -0.00530823 0.446848 0.11165  0 0 0  0 0 0
+setpointat current  345  -0.0540384 0.610481 0.0114008  0 0 0  0 0 0
+setpointat current  346  0.0363407 0.663052 0.0244333  0 0 0  0 0 0
+setpointat current  347  -0.0710274 0.54155 -0.0181114  0 0 0  0 0 0
+setpointat current  348  -0.0647342 0.381148 -0.136493  0 0 0  0 0 0
+setpointat current  349  -0.0209547 0.242611 -0.271318  0 0 0  0 0 0
+setpointat current  350  0.0656657 0.120177 -0.402581  0 0 0  0 0 0
+setpointat current  351  0.0762077 -0.0373751 -0.510905  0 0 0  0 0 0
+setpointat current  352  -0.0822753 -0.0223996 -0.510315  0 0 0  0 0 0
+setpointat current  353  -0.029414 0.129316 -0.410118  0 0 0  0 0 0
+setpointat current  354  0.0858336 0.221452 -0.275492  0 0 0  0 0 0
+setpointat current  355  0.156473 0.321843 -0.118977  0 0 0  0 0 0
+setpointat current  356  0.144283 0.371379 0.0683572  0 0 0  0 0 0
+setpointat current  357  0.010338 0.318181 0.200529  0 0 0  0 0 0
+setpointat current  358  -0.1281 0.197157 0.275867  0 0 0  0 0 0
+setpointat current  359  -0.250291 0.043084 0.261337  0 0 0  0 0 0
+setpointat current  360  -0.311388 -0.11956 0.16821  0 0 0  0 0 0
+setpointat current  361  -0.322251 -0.197091 -0.0107502  0 0 0  0 0 0
+setpointat current  362  -0.231258 -0.196475 -0.185998  0 0 0  0 0 0
+setpointat current  363  -0.0771389 -0.192055 -0.311113  0 0 0  0 0 0
+setpointat current  364  0.0950721 -0.125458 -0.371323  0 0 0  0 0 0
+setpointat current  365  0.15218 0.0564526 -0.366616  0 0 0  0 0 0
+setpointat current  366  0.10066 0.221155 -0.269628  0 0 0  0 0 0
+setpointat current  367  0.0112027 0.364818 -0.164004  0 0 0  0 0 0
+setpointat current  368  -0.0606532 0.516766 -0.0564391  0 0 0  0 0 0
+setpointat current  369  0.0190986 0.607838 0.0530768  0 0 0  0 0 0
+setpointat current  370  -0.00553918 0.532513 -0.0777069  0 0 0  0 0 0
+setpointat current  371  -0.135062 0.381773 -0.0661024  0 0 0  0 0 0
+setpointat current  372  -0.271894 0.239693 -0.035107  0 0 0  0 0 0
+setpointat current  373  -0.429194 0.120332 -0.00851336  0 0 0  0 0 0
+setpointat current  374  -0.616227 0.0523657 -0.00757802  0 0 0  0 0 0
+setpointat current  375  -0.813445 0.022304 -0.00124007  0 0 0  0 0 0
+setpointat current  376  -0.999814 5.84241e-05 0.00298409  0 0 0  0 0 0
+setpointat current  377  -0.810006 0.012866 0.0211405  0 0 0  0 0 0
+setpointat current  378  -0.612559 0.0128091 0.0525094  0 0 0  0 0 0
+setpointat current  379  -0.426502 0.0442375 0.113567  0 0 0  0 0 0
+setpointat current  380  -0.267967 0.112068 0.213326  0 0 0  0 0 0
+setpointat current  381  -0.106307 0.174189 0.311041  0 0 0  0 0 0
+setpointat current  382  0.0676918 0.129408 0.38852  0 0 0  0 0 0
+setpointat current  383  0.163948 -0.033103 0.360732  0 0 0  0 0 0
+setpointat current  384  0.134551 -0.204505 0.265956  0 0 0  0 0 0
+setpointat current  385  0.0506607 -0.354114 0.16517  0 0 0  0 0 0
+setpointat current  386  -0.0651056 -0.48468 0.0705727  0 0 0  0 0 0
+setpointat current  387  -0.0105654 -0.512402 -0.0844402  0 0 0  0 0 0
+setpointat current  388  0.134575 -0.405947 -0.0178626  0 0 0  0 0 0
+setpointat current  389  0.21375 -0.272653 0.108121  0 0 0  0 0 0
+setpointat current  390  0.266424 -0.114766 0.21669  0 0 0  0 0 0
+setpointat current  391  0.23009 0.0688667 0.272791  0 0 0  0 0 0
+setpointat current  392  0.0935946 0.210599 0.28291  0 0 0  0 0 0
+setpointat current  393  -0.0833234 0.274638 0.224272  0 0 0  0 0 0
+setpointat current  394  -0.23155 0.262968 0.0943131  0 0 0  0 0 0
+setpointat current  395  -0.309485 0.1936 -0.0736347  0 0 0  0 0 0
+setpointat current  396  -0.310177 0.0473613 -0.202605  0 0 0  0 0 0
+setpointat current  397  -0.22159 -0.120046 -0.25822  0 0 0  0 0 0
+setpointat current  398  -0.073797 -0.250632 -0.249818  0 0 0  0 0 0
+setpointat current  399  0.108146 -0.293777 -0.191602  0 0 0  0 0 0
+setpointat current  400  0.260509 -0.240219 -0.0771846  0 0 0  0 0 0
+setpointat current  401  0.378064 -0.145261 0.0522689  0 0 0  0 0 0
+setpointat current  402  0.408379 0.0231765 0.131325  0 0 0  0 0 0
+setpointat current  403  0.33156 0.183021 0.0502765  0 0 0  0 0 0
+setpointat current  404  0.196863 0.323232 0.00954212  0 0 0  0 0 0
+setpointat current  405  0.0899675 0.488044 -0.0241072  0 0 0  0 0 0
+setpointat current  406  0.00515252 0.667428 -0.0433933  0 0 0  0 0 0
+setpointat current  407  0.0186841 0.818834 0.013816  0 0 0  0 0 0
+setpointat current  408  -0.0123835 0.921865 0.00403301  0 0 0  0 0 0
+setpointat current  409  0.0124078 0.81399 -0.0197981  0 0 0  0 0 0
+setpointat current  410  -0.0271994 0.643616 0.0393665  0 0 0  0 0 0
+setpointat current  411  0.0276006 0.462126 0.100879  0 0 0  0 0 0
+setpointat current  412  0.110193 0.301207 0.182702  0 0 0  0 0 0
+setpointat current  413  0.213088 0.144133 0.249108  0 0 0  0 0 0
+setpointat current  414  0.256016 -0.0467682 0.254758  0 0 0  0 0 0
+setpointat current  415  0.214636 -0.223361 0.176671  0 0 0  0 0 0
+setpointat current  416  0.134434 -0.377356 0.0778887  0 0 0  0 0 0
+setpointat current  417  0.0675718 -0.55526 0.0184746  0 0 0  0 0 0
+setpointat current  418  -0.0095697 -0.7241 -0.034388  0 0 0  0 0 0
+setpointat current  419  -0.0089403 -0.769104 -0.0278531  0 0 0  0 0 0
+setpointat current  420  0.0455626 -0.637232 0.0183952  0 0 0  0 0 0
+setpointat current  421  0.0986624 -0.455021 -0.0435992  0 0 0  0 0 0
+setpointat current  422  0.191975 -0.292199 -0.109365  0 0 0  0 0 0
+setpointat current  423  0.322973 -0.143595 -0.131519  0 0 0  0 0 0
+setpointat current  424  0.414039 0.03026 -0.127131  0 0 0  0 0 0
+setpointat current  425  0.408114 0.130527 0.027663  0 0 0  0 0 0
+setpointat current  426  0.290691 0.121955 0.185789  0 0 0  0 0 0
+setpointat current  427  0.146141 0.128604 0.323524  0 0 0  0 0 0
+setpointat current  428  0.0137086 0.100635 0.468758  0 0 0  0 0 0
+setpointat current  429  -0.0597216 -0.0242382 0.578433  0 0 0  0 0 0
+setpointat current  430  0.0727479 0.0136443 0.54064  0 0 0  0 0 0
+setpointat current  431  0.0200548 0.139791 0.397924  0 0 0  0 0 0
+setpointat current  432  -0.0290136 0.264257 0.249913  0 0 0  0 0 0
+setpointat current  433  -0.0980827 0.388181 0.11005  0 0 0  0 0 0
+setpointat current  434  -0.097123 0.429202 -0.0726711  0 0 0  0 0 0
+setpointat current  435  0.0617446 0.359981 -0.155962  0 0 0  0 0 0
+setpointat current  436  0.221198 0.241984 -0.145292  0 0 0  0 0 0
+setpointat current  437  0.368047 0.109097 -0.119512  0 0 0  0 0 0
+setpointat current  438  0.535404 0.0100414 -0.0757343  0 0 0  0 0 0
+setpointat current  439  0.666692 -0.0264869 0.0349742  0 0 0  0 0 0
+setpointat current  440  0.669584 -0.0334614 -0.0279016  0 0 0  0 0 0
+setpointat current  441  0.551648 0.0450329 0.0553594  0 0 0  0 0 0
+setpointat current  442  0.401079 0.131852 -0.0390742  0 0 0  0 0 0
+setpointat current  443  0.253324 0.197892 -0.156294  0 0 0  0 0 0
+setpointat current  444  0.0835472 0.256568 -0.240602  0 0 0  0 0 0
+setpointat current  445  -0.109907 0.232946 -0.252159  0 0 0  0 0 0
+setpointat current  446  -0.276379 0.155917 -0.175339  0 0 0  0 0 0
+setpointat current  447  -0.425682 0.0363611 -0.118802  0 0 0  0 0 0
+setpointat current  448  -0.506084 -0.0854524 -0.00768815  0 0 0  0 0 0
+setpointat current  449  -0.459086 0.0426793 0.0966338  0 0 0  0 0 0
+setpointat current  450  -0.33486 0.183678 0.0337806  0 0 0  0 0 0
+setpointat current  451  -0.204444 0.305043 -0.0560084  0 0 0  0 0 0
+setpointat current  452  -0.0518176 0.414737 -0.11962  0 0 0  0 0 0
+setpointat current  453  0.101069 0.459491 -0.0304671  0 0 0  0 0 0
+setpointat current  454  0.0715761 0.374984 0.139308  0 0 0  0 0 0
+setpointat current  455  -0.0594737 0.26752 0.240544  0 0 0  0 0 0
+setpointat current  456  -0.173534 0.11882 0.304024  0 0 0  0 0 0
+setpointat current  457  -0.23644 -0.0636343 0.268923  0 0 0  0 0 0
+setpointat current  458  -0.216826 -0.230682 0.164306  0 0 0  0 0 0
+setpointat current  459  -0.146669 -0.377762 0.0487993  0 0 0  0 0 0
+setpointat current  460  -0.0640456 -0.535661 -0.0412022  0 0 0  0 0 0
+setpointat current  461  0.0474228 -0.640116 0.0134545  0 0 0  0 0 0
+setpointat current  462  -0.0177155 -0.630606 -0.0478177  0 0 0  0 0 0
+setpointat current  463  0.0928325 -0.487246 0.00581679  0 0 0  0 0 0
+setpointat current  464  0.166808 -0.325531 0.0964342  0 0 0  0 0 0
+setpointat current  465  0.253146 -0.170568 0.185769  0 0 0  0 0 0
+setpointat current  466  0.299079 0.0176569 0.217485  0 0 0  0 0 0
+setpointat current  467  0.2887 0.188601 0.122877  0 0 0  0 0 0
+setpointat current  468  0.196868 0.324264 0.00993509  0 0 0  0 0 0
+setpointat current  469  0.0717466 0.436359 -0.095046  0 0 0  0 0 0
+setpointat current  470  -0.089665 0.484755 -0.0327134  0 0 0  0 0 0
+setpointat current  471  -0.0154292 0.42636 0.122588  0 0 0  0 0 0
+setpointat current  472  0.134652 0.30322 0.164204  0 0 0  0 0 0
+setpointat current  473  0.267135 0.156207 0.185707  0 0 0  0 0 0
+setpointat current  474  0.349166 -0.0225964 0.173135  0 0 0  0 0 0
+setpointat current  475  0.345222 -0.171337 0.0504367  0 0 0  0 0 0
+setpointat current  476  0.259697 -0.21997 -0.120187  0 0 0  0 0 0
+setpointat current  477  0.121191 -0.217126 -0.262445  0 0 0  0 0 0
+setpointat current  478  -0.0354208 -0.158096 -0.3658  0 0 0  0 0 0
+setpointat current  479  -0.10239 -0.00636825 -0.467293  0 0 0  0 0 0
+setpointat current  480  0.0342148 0.100588 -0.458659  0 0 0  0 0 0
+setpointat current  481  0.177415 0.0276629 -0.344718  0 0 0  0 0 0
+setpointat current  482  0.262951 -0.106312 -0.224843  0 0 0  0 0 0
+setpointat current  483  0.309741 -0.198732 -0.0574699  0 0 0  0 0 0
+setpointat current  484  0.259097 -0.211838 0.131549  0 0 0  0 0 0
+setpointat current  485  0.133163 -0.185561 0.283697  0 0 0  0 0 0
+setpointat current  486  -0.00297624 -0.128436 0.417998  0 0 0  0 0 0
+setpointat current  487  -0.0845956 0.012424 0.505917  0 0 0  0 0 0
+setpointat current  488  0.0701647 0.0552376 0.496415  0 0 0  0 0 0
+setpointat current  489  0.12127 -0.0928208 0.379836  0 0 0  0 0 0
+setpointat current  490  0.15091 -0.224713 0.233337  0 0 0  0 0 0
+setpointat current  491  0.201548 -0.307779 0.0608868  0 0 0  0 0 0
+setpointat current  492  0.145125 -0.327464 -0.124249  0 0 0  0 0 0
+setpointat current  493  0.0138181 -0.259433 -0.255595  0 0 0  0 0 0
+setpointat current  494  -0.111295 -0.13596 -0.348365  0 0 0  0 0 0
+setpointat current  495  -0.143846 0.0499095 -0.378919  0 0 0  0 0 0
+setpointat current  496  -0.0237888 0.193401 -0.325483  0 0 0  0 0 0
+setpointat current  497  0.0914615 0.29553 -0.199668  0 0 0  0 0 0
+setpointat current  498  0.166957 0.358084 -0.0296984  0 0 0  0 0 0
+setpointat current  499  0.095819 0.345779 0.148843  0 0 0  0 0 0
+setpointat current  500  -0.0197231 0.241574 0.273188  0 0 0  0 0 0
+setpointat current  501  -0.100482 0.103852 0.391724  0 0 0  0 0 0
+setpointat current  502  -0.072268 -0.053006 0.499486  0 0 0  0 0 0
+setcoloractive current trigger_inactive_message
+setsize current 2
+add cursor 1
+setgroup current values
+setcurve current lastCurve
+setboundssource current -7.200 5.000 7.200 -5.000
+setspeed current 3.52814
+setwidth current 0.05
+setdepth current 0.05
+setpattern current 0 0 1
+setcoloractive current trigger_active
+setsize current 1.5
+setmessage current 20, osc://ip_out:3333/cursor1 {map(cursor_xPos,-1,1,0,1)} {map(cursor_yPos,-1,1,0,1)} {map(cursor_zPos,-1,1,0,1)} {map(cursor_xPos,-1,1,0,1)} {map(cursor_yPos,-1,1,0,1)} {map(cursor_zPos,-1,1,0,1)} ,
+add cursor 2
+setcurve current lastCurve
+setoffset current 0.5 0 0
+setspeed current 0.483755
+setwidth current 0.05
+setdepth current 0.05
+setpattern current 0 0 1
+settimepercent current 0.00257158
+setcoloractive current 255 0 0 255
+setsize current 1.2
+setmessage current 20, osc://ip_out:3333/cursor2 {map(cursor_xPos,-1,1,0,1)} {map(cursor_yPos,-1,1,0,1)} {map(cursor_zPos,-1,1,0,1)} {map(cursor_xPos,-1,1,0,1)} {map(cursor_yPos,-1,1,0,1)} {map(cursor_zPos,-1,1,0,1)} ,
+add cursor 3
+setcurve current lastCurve
+setoffset current 1 0 0
+setwidth current 0.05
+setdepth current 0.05
+setpattern current 0 0 1
+settimepercent current 0.0106317
+setcoloractive current object_hover
+setsize current 1.2
+setmessage current 20, direct:// setSpeed 1 {abs(cursor_xPos*10)} , direct:// setSpeed 2 {abs(cursor_yPos*10)} ,
+add cursor 4
+setcurve current lastCurve
+setoffset current 1.5 0 0
+setspeed current 4
+setwidth current 0.05
+setdepth current 0.05
+setpattern current 0 0 1
+settimepercent current 0.0637904
+setsize current 1.2
+setmessage current 20, osc://ip_out:3333/A { ((cursor_time_percent > 0)&&(cursor_time_percent < 0.1))?(10/16):('suppress') } , osc://ip_out:3333/B { ((cursor_time_percent > 0.1)&&(cursor_time_percent < 0.2))?(8/16):('suppress') } , osc://ip_out:3333/Ap { ((cursor_time_percent > 0.2)&&(cursor_time_percent < 0.3))?(10/16):('suppress') } , osc://ip_out:3333/C { ((cursor_time_percent > 0.3)&&(cursor_time_percent < 0.4))?(3/16):('suppress') } , osc://ip_out:3333/App { ((cursor_time_percent > 0.4)&&(cursor_time_percent < 0.5))?(10/16):('suppress') } , osc://ip_out:3333/D { ((cursor_time_percent > 0.5)&&(cursor_time_percent < 0.6))?(7/16):('suppress') } , osc://ip_out:3333/App { ((cursor_time_percent > 0.6)&&(cursor_time_percent < 0.7))?(10/16):('suppress') } , osc://ip_out:3333/C { ((cursor_time_percent > 0.7)&&(cursor_time_percent < 0.8))?(3/16):('suppress') } , osc://ip_out:3333/A { ((cursor_time_percent > 0.8)&&(cursor_time_percent < 0.9))?(10/16):('suppress') } , osc://ip_out:3333/B { ((cursor_time_percent > 0.9)&&(cursor_time_percent < 1))?(8/16):('suppress') } ,
+add cursor 5
+setcurve current lastCurve
+setoffset current 2 0 0
+setpattern current 0 0 1
+settimepercent current 0.0212635
+setsize current 1.2
+
+mute 5 0
