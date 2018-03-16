@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Pedalboard2PatchFile>
+  <Patch tempo="120" name="1 - &lt;untitled&gt;">
+    <FILTERGRAPH>
+      <FILTER uid="1" x="10" y="10" uiLastX="0" uiLastY="0" windowOpen="0"
+              program="0">
+        <PLUGIN name="Audio Input" descriptiveName="" format="Internal" category="I/O devices"
+                manufacturer="Raw Material Software" version="1.0" file="" uid="246006c0"
+                isInstrument="0" fileTime="0" numInputs="0" numOutputs="2"/>
+        <STATE>0.</STATE>
+      </FILTER>
+      <FILTER uid="2" x="10" y="120" uiLastX="0" uiLastY="0" windowOpen="0"
+              program="0">
+        <PLUGIN name="Midi Input" descriptiveName="" format="Internal" category="I/O devices"
+                manufacturer="Raw Material Software" version="1.0" file="" uid="cb5fde0b"
+                isInstrument="0" fileTime="0" numInputs="0" numOutputs="0"/>
+        <STATE>0.</STATE>
+      </FILTER>
+      <FILTER uid="3" x="892" y="10" uiLastX="0" uiLastY="0" windowOpen="0"
+              program="0">
+        <PLUGIN name="Audio Output" descriptiveName="" format="Internal" category="I/O devices"
+                manufacturer="Raw Material Software" version="1.0" file="" uid="724248cb"
+                isInstrument="0" fileTime="0" numInputs="2" numOutputs="0"/>
+        <STATE>0.</STATE>
+      </FILTER>
+      <FILTER uid="4" x="10" y="215" uiLastX="0" uiLastY="0" windowOpen="0"
+              program="0">
+        <PLUGIN name="OSC Input" descriptiveName="Dummy AudioProcessor so we can see at a glance which plugins have OSC mappings."
+                format="Internal" category="Internal" manufacturer="Niall Moody"
+                version="1.00" file="" uid="8234cb29" isInstrument="0" fileTime="0"
+                numInputs="0" numOutputs="0"/>
+        <STATE>0.</STATE>
+      </FILTER>
+      <FILTER uid="5" x="100" y="100" uiLastX="0" uiLastY="0" windowOpen="0"
+              program="0">
+        <PLUGIN name="Midi Interceptor" descriptiveName="Hidden Midi Interceptor plugin for mapping MIDI CCs to parameters."
+                format="Internal" category="Internal" manufacturer="Niall Moody"
+                version="1.00" file="" uid="8d4c17a6" isInstrument="1" fileTime="0"
+                numInputs="0" numOutputs="0"/>
+        <STATE>0.</STATE>
+      </FILTER>
+      <FILTER uid="6" x="108" y="204" uiLastX="0" uiLastY="0" windowOpen="0"
+              program="0" oscMIDIAddress="" MIDIChannel="0">
+        <PLUGIN name="Looper" descriptiveName="Simple looper processor." format="Internal"
+                category="Pedalboard Processors" manufacturer="Niall Moody" version="1.00"
+                file="" uid="8800a671" isInstrument="0" fileTime="0" numInputs="2"
+                numOutputs="2"/>
+        <STATE>292.VMjLgrQ....OPUFYgwlXuElbjICSu8FbkI2TkQGco41YyAxbuUmajYTZrUVOh7RUyUlby8xZk4VXxElXubVZz8RXrcVYhIWXoMVKy8VctQ1biEFbkM2K2ElcuLVXy8VSg4VZlkVYyQ2av.yLDk1bzUFaeY0LtbWX1IBHykmaiQ0aMEVZtQkbg41bv8lbz0iHvHBHyQ2avEjYzUlbBElb8HBLh.RX0Q2aPwVX40iHwHBHhElbNUWakIWXz8lb8HBMh.hXgIGQk41asklagQ2ax0iHzHBHo4Fb0QGSkYWYr0iHwHBHr81avwTY1UFa8HRLh.RYjkFcuIGV8HBLh.RYjkFcuIWV8HBLh.RYjkFcuI2U8HBLh.RYjkFcuIGR8HBLh7hO..</STATE>
+      </FILTER>
+      <FILTER uid="7" x="653" y="118" uiLastX="502" uiLastY="206" windowOpen="1"
+              program="0" oscMIDIAddress="127.0.0.1" MIDIChannel="0">
+        <PLUGIN name="Hysteresis" format="VST" category="Effect" manufacturer="Glitchmachines"
+                version="V1.1.0" file="/Library/Audio/Plug-Ins/VST/Hysteresis.vst"
+                uid="476c4879" isInstrument="0" fileTime="14f8844b7a8" numInputs="2"
+                numOutputs="2"/>
+        <STATE>1123.CMlaKA....fQBMDZ....AbDaHkG...fa..................................................................................................................................................................................v.Ca0PxDhtC...77DVY0zSRUzWSQUPTUDHPIWYyUFcNEVak0iHI4VZzIBHTkVak0iHv3RMwjiM3TCLxjSN3LSMx.SMvbCNwHBHTkVakMzP8HRKwHBHSkmai0iHwHBHSkmaiMzP8HRKwHBHDklcoMWZu4VOh.iK0fCL4jSN4bCLzLiMvjiMwjSLzDiHfPTZ1k1bo8laCMTOhzRLh.hQkUFYhE1Xq0iHwHBHFUVYjIVXis1PC0iHsDiHf.UZtc1WOUGc8HRLh.BTo41Ye8TczMzP8HRKwHBHCUGcuYlYeYDau8lb8HBLtPyM1jSN4jSN3.SNxXSMwLiM2DSNh.xP0Q2alY1WFw1auI2PC0iHsDiHfLTcz8lYl8USuQ1WDUFbzgVOh.iKxHSLv.CLv.CL3LCMzXSMvHiM3XiHfLTcz8lYl8USuQ1WDUFbzg1PC0iHsDiHfLTcz8lYl8USuQ1WREFck0iHv3BLxPCLv.CLv.iLvfiMwXiL0XyMwPiHfLTcz8lYl8USuQ1WREFckMzP8HRKwHBHRU1bu4VXtMVY8HBLh.hTkM2atElaiU1PC0iHsDiHfzzajUGagQWZu41WREFck0iHv3BLz.CNvPCMzTyMzLSM1.yM4DCLwXiHfzzajUGagQWZu41WREFckMzP8HRKwHBHREFck8USuQVY8HBLh.hTgQWYe0zajU1PC0iHsDiHfzzajUGagQWZu41WA01a04Fc8HBLh.RSuQVcrEFco8laeETauUmazMzP8HRKwHBHSQWYxU1aeMUYvElbgQWZu4VOh.iK1jSL4jSN4bSL3XiM1.yM1XiMvHiHfLEckIWYu80TkAWXxEFco8laCMTOhzRLh.xTzUGczUlbeAkbuA2axQWZu4VOh.iKzbCM0LCN1fyL3jSLxjiMyfiM2HiHfLEc0QGckI2WPI2av8lbzk1atMzP8HRKwHBHSQWczQWYx80TvUVYj0iHv3BM2XCL0PCNzbiLz.CMzbSN4fCL0HBHSQWczQWYx80TvUVYjMzP8HRKwHBHSQWczQWYx8kTkYWYxMWY8HRLh.xTzUGczUlbeIUY1UlbyU1PC0iHsDiHfLEc0QGckI2WMkFd8HBLtLiM2.CLv.SLyTCN4fSM4.CL3bSNh.xTzUGczUlbe0TZ3MzP8HRKwHBHDIWdecUYz0iHvHBHDIWdecUYzMzP8HRKwHBHRElaj8VaooWY8HBLh.hTg4FYu0VZ5U1PC0iHsDiHf7Tcz8ESkYWYr0iHwHBHOUGcewTY1UFaCMTOhzRLh7hO..</STATE>
+      </FILTER>
+      <CONNECTION srcFilter="2" srcChannel="4096" dstFilter="5" dstChannel="4096"/>
+      <CONNECTION srcFilter="2" srcChannel="4096" dstFilter="7" dstChannel="4096"/>
+      <CONNECTION srcFilter="6" srcChannel="0" dstFilter="7" dstChannel="0"/>
+      <CONNECTION srcFilter="6" srcChannel="1" dstFilter="7" dstChannel="1"/>
+      <CONNECTION srcFilter="7" srcChannel="0" dstFilter="3" dstChannel="0"/>
+      <CONNECTION srcFilter="7" srcChannel="1" dstFilter="3" dstChannel="1"/>
+    </FILTERGRAPH>
+    <Mappings>
+      <OscMapping pluginId="7" parameter="14" address="/cursor1" parameterIndex="0"/>
+      <OscMapping pluginId="7" parameter="13" address="/cursor1" parameterIndex="1"/>
+      <MidiMapping pluginId="7" parameter="17" cc="86" latch="0" channel="0" lowerBound="0"
+                   upperBound="1"/>
+      <MidiMapping pluginId="7" parameter="19" cc="87" latch="0" channel="0" lowerBound="0"
+                   upperBound="1"/>
+    </Mappings>
+    <UserNames/>
+  </Patch>
+</Pedalboard2PatchFile>
